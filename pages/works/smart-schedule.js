@@ -18,7 +18,7 @@ const Work = () => {
           <ListItem>
             <Meta>Git</Meta>
             <Link href={"https://github.com/ProgNeo/Smart-schedule-IRNITU"}>
-              https://github.com/ProgNeo/CyberBot <ExternalLinkIcon mx={"2px"} />
+              https://github.com/ProgNeo/Smart-schedule-IRNITU <ExternalLinkIcon mx={"2px"} />
             </Link>
           </ListItem>
           <ListItem>
