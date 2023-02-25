@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title={"Smart Schedule"}>
       <Container>
         <Title>
-          Smart Schedule <Badge>2022</Badge>
+          Smart Schedule <Badge>2023</Badge>
         </Title>
         <P>
           Telegram bot for getting a schedule at the Irkutsk Scientific Technological University.

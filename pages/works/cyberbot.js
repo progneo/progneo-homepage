@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title={"CyberBot"}>
       <Container>
         <Title>
-          CyberBot <Badge>2022</Badge>
+          CyberBot <Badge>2023</Badge>
         </Title>
         <P>
           Discord bot with gambling, moderation and other interesting things.
@@ -17,8 +17,8 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Git</Meta>
-            <Link href={"https://github.com/ProgNeo/CyberBot"}>
-              https://github.com/ProgNeo/CyberBot <ExternalLinkIcon mx={"2px"} />
+            <Link href={"https://github.com/ProgNeo/CyberBot-js"}>
+              https://github.com/ProgNeo/CyberBot-js <ExternalLinkIcon mx={"2px"} />
             </Link>
           </ListItem>
           <ListItem>
@@ -27,7 +27,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Technologies</Meta>
-            <span>Python, MySQL</span>
+            <span>Node.js, SQL</span>
           </ListItem>
         </List>
       </Container>

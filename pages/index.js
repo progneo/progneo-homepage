@@ -94,7 +94,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Samsung IT Academy - 1&apos;st place
+            Graduated from the mobile development course from Samsung IT Academy
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>

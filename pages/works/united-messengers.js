@@ -9,7 +9,7 @@ const Work = () => {
     <Layout title={"United Messengers"}>
       <Container>
         <Title>
-          United Messengers <Badge>2022</Badge>
+          United Messengers <Badge>2023</Badge>
         </Title>
         <P>
           A messenger that combines several others, designed for Android.
