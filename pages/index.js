@@ -102,7 +102,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Hackathon "Labyrinth of Reality" held by Samsung Innovation Campus. - {" "}
+            Hackathon: &quot;Labyrinth of Reality&quot; held by Samsung Innovation Campus. - {" "}
             <Link href={"https://news.samsung.com/ru/reality-maze-hackathon"}>
               1&apos;st place
             </Link>
