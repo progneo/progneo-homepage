@@ -6,20 +6,19 @@ import Layout from "../../components/layout/article";
 
 const Work = () => {
   return (
-    <Layout title={"United Messengers"}>
+    <Layout title={"Schedule ISTU"}>
       <Container>
         <Title>
-          United Messengers <Badge>2023</Badge>
+          Schedule ISTU <Badge>2023</Badge>
         </Title>
         <P>
-          A messenger that combines several others, designed for Android.
-          Currently supports two messengers: Telegram and VK.
+          The application is being developed to easily find the schedule at ISTU University.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Git</Meta>
-            <Link href={"https://github.com/ProgNeo/United-Messengers"}>
-              https://github.com/ProgNeo/United-Messengers <ExternalLinkIcon mx={"2px"} />
+            <Link href={"https://github.com/imysko/Schedule-ISTU"}>
+              https://github.com/imysko/Schedule-ISTU <ExternalLinkIcon mx={"2px"} />
             </Link>
           </ListItem>
           <ListItem>

@@ -86,7 +86,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2020</BioYear>
-            Techgamedev hackathon - 1&apos;st place
+            TechGameDev hackathon - 1&apos;st place
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -94,11 +94,18 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Graduated from the mobile development course from Samsung IT Academy
+            Completed a mobile development course at the Samsung IT Academy.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
             Baikal Unity VR & GameDev hackathon - 1&apos;st place
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Hackathon "Labyrinth of Reality" held by Samsung Innovation Campus. - {" "}
+            <Link href={"https://news.samsung.com/ru/reality-maze-hackathon"}>
+              1&apos;st place
+            </Link>
           </BioSection>
         </Section>
         <Section delay={0.3}>

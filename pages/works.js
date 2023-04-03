@@ -3,7 +3,8 @@ import Layout from "../components/layout/article";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 
-import thumbUM from "../public/images/works/united-messengers.jpg";
+import thumbUC from "../public/images/works/unifychat.png";
+import thumbScheduleISTU from "../public/images/works/schedule-istu.jpg";
 import thumbCyberBot from "../public/images/works/cyberbot.jpg";
 import thumbSmartSchedule from "../public/images/works/smart-schedule.jpg";
 
@@ -15,7 +16,12 @@ const Works = () => (
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id={"united-messengers"} title={"United Messengers"} thumbnail={thumbUM}>
+          <WorkGridItem id={"unifychat"} title={"UnifyChat"} thumbnail={thumbUC}>
+            A messenger that combines several others, designed for Android.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id={"schedule-istu"} title={"Schedule ISTU"} thumbnail={thumbScheduleISTU}>
             A messenger that combines several others, designed for Android.
           </WorkGridItem>
         </Section>
