@@ -6,7 +6,7 @@ import Layout from "../../components/layout/article";
 
 const Work = () => {
   return (
-    <Layout title={"United Messengers"}>
+    <Layout title={"UnifyChat"}>
       <Container>
         <Title>
           United Messengers <Badge>2023</Badge>
@@ -18,8 +18,8 @@ const Work = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Git</Meta>
-            <Link href={"https://github.com/ProgNeo/United-Messengers"}>
-              https://github.com/ProgNeo/United-Messengers <ExternalLinkIcon mx={"2px"} />
+            <Link href={"https://github.com/ProgNeo/UnifyChat"}>
+              https://github.com/ProgNeo/UnifyChat <ExternalLinkIcon mx={"2px"} />
             </Link>
           </ListItem>
           <ListItem>
