@@ -67,7 +67,7 @@ const Page = () => {
             Some info
           </Heading>
           <Paragraph>
-            Just a third-year student with a great desire to develop something
+            Just a fourth-year student with a great desire to develop something
             new and useful. All projects are created solely out of personal
             interest. By the way, music is an integral part of me. If there is
             no music, there will be no me.
