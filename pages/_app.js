@@ -1,6 +1,6 @@
-import Layout from "../components/layout/main";
-import Fonts from "../components/fonts";
-import { AnimatePresence } from "framer-motion";
+import Layout from '../components/layout/main'
+import Fonts from '../components/fonts'
+import { AnimatePresence } from 'framer-motion'
 import Chakra from '../components/chakra'
 
 if (typeof window !== 'undefined') {

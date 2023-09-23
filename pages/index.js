@@ -1,4 +1,4 @@
-import NextLink from "next/link";
+import NextLink from 'next/link'
 import {
   Container,
   Box,
@@ -10,36 +10,36 @@ import {
   Icon,
   Button,
   useColorModeValue
-} from "@chakra-ui/react";
-import { ChevronRightIcon } from "@chakra-ui/icons";
-import Layout from "../components/layout/article";
-import Section from "../components/section";
-import Paragraph from "../components/paragraph";
-import { BioSection, BioYear } from "../components/bio";
+} from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import Layout from '../components/layout/article'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 import {
   IoLogoGithub,
   IoLogoSteam,
   IoLogoDiscord,
   IoLogoVk
-} from "react-icons/io5";
+} from 'react-icons/io5'
 
 const Page = () => {
   return (
     <Layout>
       <Container>
         <Box
-          borderRadius={"lg"}
-          bg={useColorModeValue("purple.100", "purple.900")}
+          borderRadius={'lg'}
+          bg={useColorModeValue('purple.100', 'purple.900')}
           p={3}
           mb={6}
-          align={"center"}
+          align={'center'}
         >
           Hello! Glad to see you.
         </Box>
-        <Box display={{ md: "flex" }}>
+        <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
-            <Heading as={"h2"} variant={"page-title"}>
-              ProgNeo
+            <Heading as={'h2'} variant={'page-title'}>
+              Yaroslav Vedernikov
             </Heading>
             <p>Multifunctional developer</p>
           </Box>
@@ -47,23 +47,23 @@ const Page = () => {
             flexShirnk={0}
             mt={{ base: 4, md: 0 }}
             ml={{ md: 6 }}
-            align={"center"}
+            align={'center'}
           >
             <Image
-              borderColor={"purple.500"}
+              borderColor={'purple.500'}
               borderWidth={2}
-              borderStyle={"solid"}
-              maxWidth={"100px"}
-              display={"inline-block"}
-              borderRadius={"full"}
-              src={"/images/avatar.jpg"}
-              alt={"Profile image"}
+              borderStyle={'solid'}
+              maxWidth={'100px'}
+              display={'inline-block'}
+              borderRadius={'full'}
+              src={'/images/avatar.jpg'}
+              alt={'Profile image'}
             />
           </Box>
         </Box>
 
         <Section delay={0.1}>
-          <Heading as={"h3"} variant={"section-title"}>
+          <Heading as={'h3'} variant={'section-title'}>
             Some info
           </Heading>
           <Paragraph>
@@ -72,8 +72,8 @@ const Page = () => {
             interest. By the way, music is an integral part of me. If there is
             no music, there will be no me.
           </Paragraph>
-          <Box align={"center"} my={4}>
-            <NextLink href={"/works"}>
+          <Box align={'center'} my={4}>
+            <NextLink href={'/works'}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
                 My portfolio
               </Button>
@@ -81,7 +81,7 @@ const Page = () => {
           </Box>
         </Section>
         <Section delay={0.2}>
-          <Heading as={"h3"} variant={"section-title"}>
+          <Heading as={'h3'} variant={'section-title'}>
             Achievements
           </Heading>
           <BioSection>
@@ -102,33 +102,34 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Hackathon: &quot;Labyrinth of Reality&quot; held by Samsung Innovation Campus. - {" "}
-            <Link href={"https://news.samsung.com/ru/reality-maze-hackathon"}>
+            Hackathon: &quot;Labyrinth of Reality&quot; held by Samsung
+            Innovation Campus. -{' '}
+            <Link href={'https://news.samsung.com/ru/reality-maze-hackathon'}>
               1&apos;st place
             </Link>
           </BioSection>
         </Section>
         <Section delay={0.3}>
-          <Heading as={"h3"} variant={"section-title"}>
+          <Heading as={'h3'} variant={'section-title'}>
             I ♥
           </Heading>
           <Paragraph>
-            Music, Mobile Development, Game Development, Playing Drums,{" "}
-            <Link href={"https://steamcommunity.com/id/prograneo/"}>
+            Music, Mobile Development, Game Development, Playing Drums,{' '}
+            <Link href={'https://steamcommunity.com/id/prograneo/'}>
               Computer Games
             </Link>
           </Paragraph>
         </Section>
         <Section delay={0.3}>
-          <Heading as={"h3"} variant={"section-title"}>
+          <Heading as={'h3'} variant={'section-title'}>
             On the web
           </Heading>
           <List>
             <ListItem>
-              <Link href={"https://github.com/progneo/"} target={"_blank"}>
+              <Link href={'https://github.com/progneo/'} target={'_blank'}>
                 <Button
-                  variant={"ghost"}
-                  colorScheme={"purple"}
+                  variant={'ghost'}
+                  colorScheme={'purple'}
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
                   @progneo
@@ -136,10 +137,10 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href={"https://vk.com/progneo/"} target={"_blank"}>
+              <Link href={'https://vk.com/progneo/'} target={'_blank'}>
                 <Button
-                  variant={"ghost"}
-                  colorScheme={"purple"}
+                  variant={'ghost'}
+                  colorScheme={'purple'}
                   leftIcon={<Icon as={IoLogoVk} />}
                 >
                   @progneo
@@ -147,21 +148,27 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href={"https://steamcommunity.com/id/prograneo/"} target={"_blank"}>
+              <Link
+                href={'https://steamcommunity.com/id/prograneo/'}
+                target={'_blank'}
+              >
                 <Button
-                  variant={"ghost"}
-                  colorScheme={"purple"}
+                  variant={'ghost'}
+                  colorScheme={'purple'}
                   leftIcon={<Icon as={IoLogoSteam} />}
                 >
-                  ProgNeo
+                  Steam
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href={"https://discord.com/invite/TpezxsmpkY/"} target={"_blank"}>
+              <Link
+                href={'https://discord.com/invite/TpezxsmpkY/'}
+                target={'_blank'}
+              >
                 <Button
-                  variant={"ghost"}
-                  colorScheme={"purple"}
+                  variant={'ghost'}
+                  colorScheme={'purple'}
                   leftIcon={<Icon as={IoLogoDiscord} />}
                 >
                   Discord
@@ -172,8 +179,8 @@ const Page = () => {
         </Section>
       </Container>
     </Layout>
-  );
-};
+  )
+}
 
-export default Page;
-export { getServerSideProps } from "../components/chakra";
+export default Page
+export { getServerSideProps } from '../components/chakra'
